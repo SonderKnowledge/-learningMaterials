@@ -10,7 +10,7 @@ const rl = readline.createInterface({
 });
 
 const data = "require('font-awesome/css/font-awesome.css');"
-   
+
 rl.on('line', (line) => {
   if(line !== data){
     try {
