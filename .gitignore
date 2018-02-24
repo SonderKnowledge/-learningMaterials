@@ -24,3 +24,5 @@ yarn*log
 run/
 log/
 .vscode
+*/node_modules
+*/yarn.lock

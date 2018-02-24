@@ -6,4 +6,4 @@ let a = {
 // 取其一
 // module.exports = 'a';
 // export default a
-// export { a }
+export { a }

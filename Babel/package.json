@@ -1,4 +1,10 @@
 {
+  "name": "babel",
+  "version": "0.0.1",
+  "scripts": {
+    "node": "babel-node index.js",
+    "build": "babel src -d lib"
+  },
   "dependencies": {
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
