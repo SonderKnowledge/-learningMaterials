@@ -2,7 +2,7 @@
   "name": "babel",
   "version": "0.0.1",
   "scripts": {
-    "node": "babel-node index.js",
+    "node": "babel-node src/index.js",
     "build": "babel src -d lib"
   },
   "dependencies": {
@@ -10,5 +10,8 @@
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "es-checker": "^1.4.1"
+  },
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.24.1"
   }
 }
