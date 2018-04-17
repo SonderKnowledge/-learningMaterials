@@ -6,10 +6,14 @@ const fs = require('fs');
  * 第一种写法
  */
 const rl = readline.createInterface({
-  input: fs.createReadStream('./node_modules/react-fa/lib/index.js')
+  input: fs.createReadStream('./test.js')
 });
 
-const data = "require('font-awesome/css/font-awesome.css');"
+const data = [
+  'ref: "footer"',
+  'ref: "header"',
+  'ref: "body"'
+]
 
 rl.on('line', (line) => {
   if(line !== data){

@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "ddeyes": "^0.0.6",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "sonder.random": "^0.0.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
