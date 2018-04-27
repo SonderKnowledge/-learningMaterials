@@ -1,0 +1,13 @@
+class Validate
+  constructor: (args) ->
+    # body...
+  exist: (obj, array) ->
+    # objArr = Object.keys obj
+    for name in array
+      # if objArr.indexOf value is -1
+      if !obj[name]
+        throw new Error '必填字段缺失或错误'
+
+validate = new Validate
+
+export default validate

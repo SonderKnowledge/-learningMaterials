@@ -1,0 +1,43 @@
+# import dd from 'ddeyes'
+# import { sagaEffects } from 'cfx.redux-saga'
+# import constants from '../constants'
+# import USERSAGAS from './user'
+# import LOGINSAGAS from './login'
+
+# {
+#   put
+#   takeLatest
+# } = sagaEffects
+
+# {
+#   USER_CREATE
+
+#   LOGIN_LOGIN
+# } = constants.type
+
+# users = 
+
+#   create: (action) ->
+#     USERSAGAS.create action
+#     , {
+#       put
+#     }
+
+# login = 
+#   login: (action) ->
+#     LOGINSAGAS.login action
+#     , {
+#       put
+#     }
+
+# export default [
+#   # user
+#   ->
+#     yield takeLatest USER_CREATE
+#     , users.create
+
+#   # login
+#   ->
+#     yield takeLatest LOGIN_LOGIN
+#     , login.login
+# ]

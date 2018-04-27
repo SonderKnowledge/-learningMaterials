@@ -1,0 +1,16 @@
+{
+  "name": "framework-example",
+  "version": "1.0.0",
+  "devDependencies": {
+    "egg-bin": "^2.0.0",
+    "egg-mock": "^2.0.0",
+    "supertest": "^2.0.1"
+  },
+  "scripts": {
+    "start": "egg-bin dev",
+    "test": "egg-bin test"
+  },
+  "egg": {
+    "framework": "yadan"
+  }
+}

@@ -1,0 +1,11 @@
+export default
+  login:    {}
+  user:     []
+  landlord: []
+  tenant:   []
+  todo:     []
+  notice:   []
+  house:    []
+  room:     []
+  bed:      []
+  rent:     []

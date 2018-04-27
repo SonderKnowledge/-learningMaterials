@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "js2image": "^1.0.0"
+  }
+}
